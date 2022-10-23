@@ -13,4 +13,4 @@ HAVING
             WHEN id IS NULL THEN 1
             ELSE 0
         END
-    ) / COUNT(*) >.1
+    ) / COUNT(*) > 1
